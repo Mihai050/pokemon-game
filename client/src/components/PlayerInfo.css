@@ -1,0 +1,56 @@
+@import url("https://fonts.cdnfonts.com/css/pokemon-hollow");
+
+:root {
+  --player-name-color: #b1f8e9;
+  --name-outline-color: #0a167e;
+}
+
+.infoBackground{
+    position: absolute;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/478/716/839/pokemon-tile-cartoon-pattern-hd-wallpaper-preview.jpg);
+    width: 30%;
+    height: 13%;
+    left: 2%;
+    top: 2%;
+    border-radius: 20px;
+    border: 2px solid rgb(93, 158, 180);
+    font-family: "Pokemon Solid", sans-serif;
+    letter-spacing: 4px;
+    color: var(--player-name-color);
+    -webkit-text-stroke: 1px var(--name-outline-color);
+}
+
+.infoBackground > img {
+    max-width: 40%;
+    position: absolute;
+    top: -15%;
+    left: -10%;
+    opacity: 0.95;
+    
+}
+
+.playerNameDisplay{
+    text-transform: uppercase;
+}
+
+.infoBackground > h3 {
+    position: absolute;
+    left: 30%;
+    font-size:2em;
+    letter-spacing: 5px;
+    top: 4%;
+}
+
+.infoBackground > h4 {
+    position: absolute; 
+    left: 35%;
+    top: 20%;
+    font-size: large;
+}
+
+.infoBackground > h5 {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    font-size: large;
+}

@@ -1,0 +1,54 @@
+.loginScreen {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("https://images5.alphacoders.com/324/thumb-1920-324268.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginModal {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 15px;
+  position: absolute;
+  /* width: 400px;
+  height: 450px; */
+  width: auto;
+  height: auto;
+  inset: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.loginModal h2 {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+
+.logChoice button {
+  margin-block: 5px;
+  margin-inline: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+
+.logChoice button:hover {
+  background-color: #45a049;
+}
+
+.logChoice button:focus {
+  outline: none;
+}

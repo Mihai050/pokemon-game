@@ -1,0 +1,81 @@
+.signIn div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.signIn label {
+  margin-bottom: 10px;
+}
+
+.signIn .inputField[type="text"],
+.signIn .inputField[type="password"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.signIn .submitButton {
+  padding: 10px 20px;
+  margin-top: 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.signIn .submitButton:hover {
+  background-color: #45a049;
+}
+
+.signIn .submitButton:focus {
+  outline: none;
+}
+
+.signIn button:hover {
+  background-color: #d32f2f;
+}
+
+.signIn button:focus {
+  outline: none;
+}
+
+.goBackButton {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  background-color: #f44336;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.forgotButton {
+  position: absolute;
+  top: 5%;
+  right: 12%;
+  background-color: #f44336;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.errorMessage { 
+  background-color: #f44336;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: large;
+}

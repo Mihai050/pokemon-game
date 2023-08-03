@@ -1,0 +1,87 @@
+.instructionsModal {
+  position: absolute;
+  inset: 0;
+  margin-inline: 5%;
+  margin-block: 5%;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.9), rgba(52, 221, 243, 0.9));
+  background-image: url(" https://e0.pxfuel.com/wallpapers/202/501/desktop-wallpaper-cute-in-full-resolution-for-computers-moving-pokemon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  border: 4px solid black;
+  z-index: 100;
+}
+
+.closeDiv {
+  position: relative;
+  width: 100%;
+  height: 10%;
+}
+
+.closeButton {
+  position: relative;
+  inset: 0;
+  margin-left: 95%;
+  margin-top: 2.5%;
+  scale: 2;
+}
+
+.closeButton:hover {
+  scale: 2.1;
+  fill: rgb(215, 148, 148);
+}
+
+.pageContainer{
+  border: 1px solid #d38871;
+  width: 75%;
+  margin-inline: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fcc9b9;
+  border-radius: 25px;
+}
+
+.instructionButton{
+  color: rgb(255, 255, 255);
+  display: grid;
+  place-items: center;
+  width: 20%;
+  font-size:x-large;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  background-color: #a85858;
+}
+
+.instructionButton:hover{
+  background-color: rgb(255, 255, 255);
+  color: #a85858;
+  cursor: pointer;
+}
+
+
+.instructionSet{
+  background-color: rgba(0, 0, 0, 0.627);
+  width: 65%;
+  height: 700%;
+  margin-inline: auto;
+  margin-top: 2%;
+  border-radius: 15px;
+  display: grid;
+}
+
+.instructionHeader{
+  color: white;
+  font-size: 3em;
+}
+
+.instructionBody{
+  color: white;
+  margin-inline: auto;
+  font-size: 2em; 
+  height: 90%;
+  width: 75%;
+  overflow-y: auto;
+  margin-bottom: 15%;
+}

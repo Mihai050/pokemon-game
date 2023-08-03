@@ -1,0 +1,39 @@
+@import url('https://fonts.cdnfonts.com/css/dot-matrix');
+
+.board {
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    width: 29.5%;
+    height: 24%;
+    display: grid;
+    font-family: 'Dot Matrix', sans-serif;
+}
+
+h2 {
+    color: #008F11;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: x-large;
+    margin-inline: auto;
+}
+
+.specialMessage{
+    display: grid;
+    justify-content: center;
+    width: 90%;
+    color: rgb(0, 191, 255);
+    margin-inline: auto;
+    font-size: larger;
+    margin-top: 0;
+    inset: 0;
+    line-height: 20px;
+}
+
+.specialMessage span {
+    text-transform: uppercase;
+}
+
+h3{
+    margin-top: 0;
+}

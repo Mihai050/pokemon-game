@@ -1,0 +1,180 @@
+@import url(//db.onlinewebfonts.com/c/38d15e6783e73ca3b0c7c06f79ac7bc4?family=Belwe);
+@import url("https://fonts.cdnfonts.com/css/pokemon-hollow");
+
+.fightScreen {
+  margin: 0;
+  padding: 0;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("https://i.imgur.com/NPsCV7Y.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.pokemonCardImg {
+  position: absolute;
+  width: 16%;
+  height: 37.9%;
+}
+
+#first {
+  top: 40.5%;
+  left: 22.5%;
+}
+
+#second {
+  top: 40.5%;
+  right: 22.5%;
+}
+
+.filler {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://cdna.artstation.com/p/assets/images/images/029/553/104/large/ronald-van-egdom-terrariahell.jpg?1597917748");
+  background-image: url("https://wallpapers.com/images/hd/terraria-background-ajw5orc37bu7tssd.jpg");
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/033/196/797/large/ronald-van-egdom-crimson720.jpg?1608721725");
+  background-image: url("https://static.wikia.nocookie.net/terrariamods_gamepedia_en/images/7/72/Evil_Blooming_%28Terraria_Overhaul%29.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 9%;
+  height: 16%;
+}
+
+#firstFiller {
+  top: 43.1%;
+  left: 25.99%;
+}
+
+#secondFiller {
+  top: 43.1%;
+  right: 25.99%;
+}
+
+.fillerPoke {
+  position: relative;
+  top: 20%;
+  scale: 2.2;
+}
+
+.health {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4%;
+  height: 6%;
+  padding-top: 20px;
+  top: 39%;
+  font-family: Belwe;
+  font-size: 1.8vw;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px black;
+  background-image: url("https://i.imgur.com/N64STi4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#firstHealth{
+  left: 21.565%;
+  
+}
+#secondHealth{
+  left: 60.54%;
+}
+
+.attack {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+  height: 7%;
+  padding-top: 15px;
+  padding-left: 9px;
+  top: 72%;
+  font-family: Belwe;
+  font-size: 1.8vw;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px black;
+  background-image: url("https://i.imgur.com/aoLmw1J.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#firstAttack{
+  left: 19.7%;
+  
+}
+#secondAttack{
+  left: 58.675%;
+}
+
+.defence {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.5%;
+  height: 6.5%;
+  top: 74%;
+  font-family: Belwe;
+  font-size: 1.8vw;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px black;
+  background-image: url("https://i.imgur.com/EsBxmCd.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#firstDefence{
+  left: 36%;
+  
+}
+#secondDefence{
+  left: 74.975%;
+}
+
+
+.fightButton{
+  position: absolute;
+  bottom: 90px;
+  right: 47%;
+  max-width: 120px;
+}
+
+.fightButton:hover{
+  scale: 1.1;
+  cursor: pointer;
+
+}
+
+.firstPokeName{
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 28%;
+  left: 27%;
+  font-family: "Pokemon Solid", sans-serif;
+  letter-spacing: 5px;
+  color: rgb(50, 135, 45);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  font-size: larger;
+}
+
+.secondPokeName{
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 28%;
+  right: 27%;
+  font-family: "Pokemon Solid", sans-serif;
+  letter-spacing: 5px;
+  color: rgb(163, 45, 45);
+  -webkit-text-stroke: 1px black;
+  font-size: larger;
+}
